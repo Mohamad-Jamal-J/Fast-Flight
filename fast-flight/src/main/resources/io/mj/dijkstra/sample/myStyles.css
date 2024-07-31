@@ -1,0 +1,105 @@
+.button {
+    -fx-background-color: #151515;
+    -fx-text-fill: #e8e8e8;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(5, 4, 4, 0.24), 10, 0, 0, 0);
+    -fx-end-margin: 10px;
+    -fx-start-margin-margin: 10px;
+}
+
+.button:hover {
+    -fx-background-color: #312f2f;
+    -fx-cursor: hand;
+}
+.button:pressed {
+    -fx-background-color: #000;
+}
+
+.label{
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-font-style: italic;
+    -fx-font-family: 'Lucida Console';
+    -fx-text-fill: #000000;
+
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-pane{
+    -fx-border-color: rgba(255,255,255,0);
+    -fx-border-width: 0px;
+    -fx-background-color: transparent;
+
+}
+
+.combo-box{
+    -fx-min-width: 200px;
+    -fx-background-color: #000000;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 10px;
+    -fx-end-margin: 10px;
+    -fx-start-margin-margin: 10px;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #ffffff;
+}
+
+.combo-box>.list-cell {
+    -fx-alignment: center;
+}
+
+.combo-box .list-view .list-cell {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #000000;
+}
+
+.combo-box .list-view .list-cell:focused {
+    -fx-background-color: #1a3477;
+    -fx-text-fill: #b9b9b9;
+}
+
+.combo-box .list-view .list-cell:hover {
+    -fx-background-color : #1e3d8c;
+    -fx-text-fill: white;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: #333333;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #666666;
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #333333;
+    -fx-background-insets: 0;
+
+}
+
+.combo-box .scroll-bar .increment-arrow,
+.combo-box .scroll-bar .decrement-arrow {
+    -fx-background-color: #555555;
+}
+
+.custom-row {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0b186e;
+
+}
+
+
